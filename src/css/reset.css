@@ -2,7 +2,12 @@ html, body {
   height: 100svh;
   height: 100vh;
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   overflow: auto;
+  background-color: var(--very-dark-blue);
 }
 
 *, 
